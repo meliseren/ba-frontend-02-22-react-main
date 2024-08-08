@@ -1,0 +1,71 @@
+{
+  "students": [
+    {
+      "id": "001",
+      "studentName": "Buse Ugras",
+      "instructor": "Orkun Durmaz",
+      "course": "Frontend Dev"
+    },
+    {
+      "id": "002",
+      "studentName": "Melis Eren",
+      "instructor": "Orkun Durmaz",
+      "course": "Frontend Dev"
+    },
+    {
+      "id": "003",
+      "studentName": "Firat Can Tas",
+      "instructor": "Orkun Durmaz",
+      "course": ".Net Boost"
+    },
+    {
+      "studentName": "Consectetur iure et ",
+      "instructor": "Veniam explicabo C",
+      "course": "Voluptatem ea porro ",
+      "id": "BPlK82S"
+    }
+  ],
+  "courses": [
+    {
+      "courseName": "Frontend Dev",
+      "duration": 200,
+      "description": "Lorem ipsum dolor"
+    },
+    {
+      "courseName": ".Net Dev",
+      "duration": 320,
+      "description": "Lorem ipsum dolor"
+    },
+    {
+      "courseName": "React Native",
+      "duration": 120,
+      "description": "Lorem ipsum dolor"
+    }
+  ],
+  "users": [
+    {
+      "id": "f34c0bb5-bc48-443a-a89d-13cbf6b97854",
+      "fullName": "Evren Eruyar",
+      "email": "kickaxecoder_34@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "caf1960f-59df-4c67-bd94-8c7377969bc7",
+      "fullName": "Buse Ugras",
+      "email": "chilgin_kiz_kodluyor@gmail.com",
+      "password": "loremipsumkebab"
+    },
+    {
+      "id": "b543f765-5a0d-44b4-97a4-1d0b61e771cb",
+      "fullName": "Melis Eren",
+      "email": "sexy_programmer17@gmail.com",
+      "password": "murphywasanoptimist"
+    },
+    {
+      "id": "b543f765-5a0d-44b4-97a4-1d0b61e771bc",
+      "fullName": "Lorem Ipsum",
+      "email": "lorem@ipsum.com",
+      "password": "1234"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+//Variables
+$primary-color: rgb(40, 166, 124);
+$secondary-color: rgb(255, 243, 71);
+$dark-color: #333;
+$light-color: #f4f4f4;
+$danger-color: brown;
+$sm-border: 2px solid $light-color;
+$box-shadow-light: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+$box-shadow-md: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+$box-shadow-heavy: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+/* Utilities */
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: $primary-color;
+  color: $light-color;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/* button  */
+.btn-delete {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  color: $danger-color;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.app {
+  text-align: center;
+  .student-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center; 
+  }
+
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 10px auto;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: $box-shadow-md;
+
+    .input-err {
+      font-size: 12px;
+      font-weight: 800;
+      color: $danger-color;
+      text-align: left;
+      margin: 2px 0 0 4px;
+    }
+
+    .form-control,
+    & input,
+    & .btn {
+      width: 100%;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  i {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* App Level Header */
+.app-header {
+  background-color: $primary-color;
+  color: $light-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 70px;
+
+  a {
+    text-decoration: none;
+    color: $light-color;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      margin-right: 7px;
+    }
+  }
+
+  /* App Level Header Navbar */
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      font-weight: 700;
+    }
+
+    li {
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        border-bottom: $sm-border;
+      }
+    }
+  }
+}
+
+.student-list {
+  margin: 20px 20px 0;
+  box-shadow: $box-shadow-light;
+  padding: 5px 20px 20px;
+
+  .student-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .student-card {
+    width: 200px;
+    box-shadow: $box-shadow-md;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &,
+    ul {
+      margin: 0;
+    }
+  }
+}
